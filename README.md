@@ -39,5 +39,20 @@ example : classification of digits using its images as input
  ![alt text](one-vs-all.png)
  
  
+ here we can see the way we have trained our data set using repeated logistic regression . in the above image we have three classes , we need to segregate our 
+ data to any of these one class .
+ 
+ working of one-vs-all
+ 
+ for i = 1: no.of.classes
+ 
+ class i = class A
+ rest of class = class B
+ perform logistic regression on class A and class B and update the parameters
+  
+  endfor
+  
+  we use the above algorithm to perform multi-class prediction
+ 
 for more detailed explanation of one-vs-all follow the link -> https://towardsdatascience.com/multi-class-classification-one-vs-all-one-vs-one-94daed32a87b
  
