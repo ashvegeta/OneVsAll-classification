@@ -44,13 +44,16 @@ example : classification of digits using its images as input
  
  working of one-vs-all
  
+ 
+ algorithm :
+ 
  for i = 1: no.of.classes
  
- class i = class A
- rest of class = class B
+ class A = class i
+ class B = rest of classes
  perform logistic regression on class A and class B and update the parameters
   
-  endfor
+ *endfor
   
   we use the above algorithm to perform multi-class prediction
  
