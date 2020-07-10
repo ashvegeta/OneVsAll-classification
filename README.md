@@ -22,7 +22,7 @@ example : classification of digits using its images as input
  
  before understanding logistic regression we need to understand something called sigmoid function.
  
- ![alt text](https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F88%2FLogistic-curve.svg%2F320px-Logistic-curve.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSigmoid_function&tbnid=VjglH3kRCVECZM&vet=12ahUKEwiVv8rKhcLqAhXc-jgGHfwsDUUQMygAegUIARC0AQ..i&docid=avewwmVOe63F1M&w=320&h=213&q=sigmoid%20function%20graph&ved=2ahUKEwiVv8rKhcLqAhXc-jgGHfwsDUUQMygAegUIARC0AQ)
+ ![alt text](sigmoid_function.png)
 
  the image shown here is a sigmoid function . basically it converts any number between (0,1) , this function is necesary as the output we predict should be logical
  so anything >= 0.5 will be predicted as 1 else 0.
@@ -36,6 +36,6 @@ example : classification of digits using its images as input
  the number of times we repeat the algorithm depends on no of multi-classes present 
  
  
- ![alt text](https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1400%2F1*RElrybCZ4WPsUfRwDl7fqA.png&imgrefurl=https%3A%2F%2Ftowardsdatascience.com%2Fmulti-class-classification-one-vs-all-one-vs-one-94daed32a87b&tbnid=rGntKT8qYAwfZM&vet=12ahUKEwjVk9SaiMLqAhVV7jgGHZHBBpkQMygBegUIARCnAQ..i&docid=pWq4eSSQh0a_xM&w=700&h=438&q=one%20vs%20all%20classification&ved=2ahUKEwjVk9SaiMLqAhVV7jgGHZHBBpkQMygBegUIARCnAQ)
+ ![alt text](one-vs-all.png)
 
  
