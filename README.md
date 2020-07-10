@@ -37,5 +37,7 @@ example : classification of digits using its images as input
  
  
  ![alt text](one-vs-all.png)
-
+ 
+ 
+for more detailed explanation of one-vs-all follow the link -> https://towardsdatascience.com/multi-class-classification-one-vs-all-one-vs-one-94daed32a87b
  
