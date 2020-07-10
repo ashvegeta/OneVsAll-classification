@@ -49,11 +49,11 @@ example : classification of digits using its images as input
  
  for i = 1: no.of.classes
  
- class A = class i
- class B = rest of classes
- perform logistic regression on class A and class B and update the parameters
+ class A = class i ;
+ class B = rest of classes ;
+ perform logistic regression on class A and class B and update the parameters ;
   
- *endfor
+ endfor
   
   we use the above algorithm to perform multi-class prediction
  
